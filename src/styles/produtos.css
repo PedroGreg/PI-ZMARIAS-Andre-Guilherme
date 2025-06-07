@@ -46,11 +46,25 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    margin-left: 10%;
-    border-bottom: 2px solid white;
+    width: auto;
+    
+   
     margin-bottom: 20px;
 }
+.logoimg {
+width: 400px;
+
+
+}
+.mercado {
+     border-bottom: 2px solid white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+
+}
+
 .image{
     display: flex;
     width: 80%;
@@ -81,3 +95,26 @@ main h2{
 }
 
 
+
+main h1 { font-size: large 50px;
+color:  white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+/* .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.logo {
+  max-width: 400px;    
+  width: 100%;    
+  height: auto;        
+  display: block;
+} */
