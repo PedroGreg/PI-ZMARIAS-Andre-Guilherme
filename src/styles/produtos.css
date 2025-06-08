@@ -107,12 +107,14 @@ justify-content: center;
 footer {
     display: flex; 
     justify-content: center;  
+    align-items: center;  
     background-color: #501717;
     color: white;
     padding: 10px 0;
 }
 
-footer img { 
+footer img {
+    margin-right: 10px; 
     width: 15px;
     height: auto;
 }
