@@ -52,7 +52,7 @@ main{
     margin-bottom: 20px;
 }
 .logoimg {
-width: 400px;
+width: 200px;
 
 
 }
@@ -126,6 +126,7 @@ footer img {
     margin-right: 32px;
     border-radius: 15px;
     gap: 10px;
+    margin: auto;
 }
 
 .products img {
@@ -141,14 +142,18 @@ footer img {
     padding: 15px 30px 18px 18px;
     justify-content: left;
     align-content: space-between;
-    border-radius: 200px;
+    border-radius: 10px;
+    align-items: center;
 }
 
 .produtos {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 400px;
+    margin-top: 10px;
+    width: 100%;
+    
+   
     
 }
 
