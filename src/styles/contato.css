@@ -46,88 +46,73 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
-    
-   
-    margin-bottom: 20px;
-}
-.logoimg {
-width: 400px;
-
-
-}
-.mercado {
-     border-bottom: 2px solid white;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 100%;
-
-}
-
-.image{
-    display: flex;
     width: 80%;
     margin-left: 10%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 45px 0px;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
 }
-.image-img{
-    width: 25%;
-    height: auto;
-    border-radius: 10px;
-    transition: transform 0.5s ease, box-shadow 0.5s ease;
-}
-.image-img:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
-}
-.text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-main h2{
+
+.contact-form h1 {
     font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+textarea {
+    height: 150px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
     color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2980b9;
 }
 
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-
-main h1 { font-size: large 50px;
-color:  white;
-display: flex;
-align-items: center;
-justify-content: center;
 }
 
+.social-links img{
+
+   width: 100px;
+   
+  
+}
 
 footer {
     display: flex; 
     justify-content: center;  
+    align-items: center;  
     background-color: #501717;
     color: white;
     padding: 10px 0;
 }
 
-footer img { 
+footer img {
+    margin-right: 10px; 
     width: 15px;
     height: auto;
 }
 
-/* .logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  
-}
 
-.logo {
-  max-width: 400px;    
-  width: 100%;    
-  height: auto;        
-  display: block;
-} */
+
