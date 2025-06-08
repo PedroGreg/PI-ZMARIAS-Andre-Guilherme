@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: none;
+  border: none;
+  font-family: 'Comic Relief', sans-serif;
+    
+  
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #501717;
+    width: 100%;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 50%;
+    font-size: 25px;
+    color: white;
+}
+nav a:hover {
+    background-color: #8f4254;
+    transition: background-color 0.3s ease;
+}
+
+main{
+    width: 100%;
+    background-color: #8f4254;
+    padding: 30px;
+    
+}
+
+
+
+.b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+.b img {
+    width: 200px;   
+    height: auto; 
+}
+main div h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+
+
+
+
+footer {
+    display: flex; 
+    justify-content: center;  
+    align-items: center;  
+    background-color: #501717;
+    color: white;
+    padding: 10px 0;
+    
+ 
+}
+
+footer img {
+    margin-right: 10px; 
+    width: 15px;
+    height: auto;
+}
