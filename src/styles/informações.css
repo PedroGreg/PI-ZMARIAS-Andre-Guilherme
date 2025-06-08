@@ -52,51 +52,21 @@ main{
     margin-bottom: 20px;
 }
 
-.contact-form h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
-    text-align: center;
-
+body {
+    background-color: #8f4254 ;
 }
 
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    
-}
-
-textarea {
-    height: 150px;
-    
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #2980b9;
-}
-
-.social-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.social-links img{
-
-   width: 100px;
-   
+.text {
+  max-width: 600px;           
+  text-align: center;
+  margin: 0 auto 40px auto;
   
+}
+
+
+.titulo{
+  line-height: 2.0;
+  margin-bottom: 15px;
 }
 
 footer {
@@ -113,11 +83,6 @@ footer img {
     width: 15px;
     height: auto;
 }
-
-body {
-    background-color: #8f4254 ;
-}
-
 
 
 
