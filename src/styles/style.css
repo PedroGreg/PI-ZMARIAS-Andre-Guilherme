@@ -95,3 +95,13 @@ footer img {
     height: auto;
 }
 
+body {
+    background-color: #8f4254 ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+

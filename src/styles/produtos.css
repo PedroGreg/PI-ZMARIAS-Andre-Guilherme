@@ -102,6 +102,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+body {
+    background-color: #8f4254 ;
+}
 
 
 footer {
@@ -171,6 +174,12 @@ footer img {
 .products-value p {
     font-size: 20px;
     color: #3a3a3a;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* .logo-container {
