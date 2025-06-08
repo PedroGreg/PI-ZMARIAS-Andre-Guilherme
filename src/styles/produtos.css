@@ -114,7 +114,6 @@ footer {
     background-color: #501717;
     color: white;
     padding: 10px 0;
-    
 }
 
 footer img {
@@ -177,19 +176,9 @@ footer img {
     color: #3a3a3a;
 }
 
-
-
-/* .logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.logo {
-  max-width: 400px;    
-  width: 100%;    
-  height: auto;        
-  display: block;
-} */
